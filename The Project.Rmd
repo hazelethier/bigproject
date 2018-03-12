@@ -7,5 +7,10 @@ output: html_document
 library(tidyverse)
 library(ipumsr)
 library(mosaic)
+library(Stat2Data)
+data("Cereal")
+ggplot(Cereal, aes(x=Calories, y=Fiber)) + geom_point()
+
+
 ```
 
