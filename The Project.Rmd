@@ -1,0 +1,11 @@
+---
+title: "THE PROJECT"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(ipumsr)
+library(mosaic)
+```
+
